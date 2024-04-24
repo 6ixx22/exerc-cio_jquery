@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#task-list {
+    list-style: none;
+}
+
+#task-list li {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.container h1 {
+    color: blue;
+}
+
+.container button {
+    color:#fff;
+    background-color: green;
+}
